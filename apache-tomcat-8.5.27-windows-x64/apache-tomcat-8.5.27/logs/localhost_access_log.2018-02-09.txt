@@ -1,0 +1,4 @@
+127.0.0.1 - tomcat [09/Feb/2018:11:41:03 +0530] "GET //manager/text/list HTTP/1.1" 200 228
+127.0.0.1 - tomcat [09/Feb/2018:11:41:03 +0530] "GET //manager/text/list HTTP/1.1" 200 228
+127.0.0.1 - tomcat [09/Feb/2018:11:41:04 +0530] "GET //manager/text/undeploy?path=%2Fwebapp HTTP/1.1" 200 66
+127.0.0.1 - tomcat [09/Feb/2018:11:41:04 +0530] "PUT //manager/text/deploy?path=%2Fwebapp HTTP/1.1" 200 64
