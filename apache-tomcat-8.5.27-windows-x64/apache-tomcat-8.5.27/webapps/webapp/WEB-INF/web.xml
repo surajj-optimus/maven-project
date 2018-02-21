@@ -9,9 +9,19 @@
   <servlet-name>HelloWorldExample</servlet-name>
   <servlet-class>com.example.HelloWorldExample</servlet-class>
   </servlet>
+
+<servlet>
+  <servlet-name>x</servlet-name>
+  <servlet-class>x</servlet-class>
+  </servlet>
+
   <servlet-mapping>
   <servlet-name>HelloWorldExample</servlet-name>
   <url-pattern>/hello</url-pattern>
+
+
+<servlet-name>x</servlet-name>
+  <url-pattern>/x</url-pattern>
   </servlet-mapping>
   -->
 </web-app>

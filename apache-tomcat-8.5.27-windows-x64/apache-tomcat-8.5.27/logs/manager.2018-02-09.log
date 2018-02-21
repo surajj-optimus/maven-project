@@ -33,3 +33,263 @@
 09-Feb-2018 11:54:17.625 INFO [http-nio-8090-exec-20] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
 09-Feb-2018 11:54:18.141 INFO [http-nio-8090-exec-15] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
 09-Feb-2018 11:54:18.141 INFO [http-nio-8090-exec-15] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war
+09-Feb-2018 12:21:33.030 INFO [http-nio-8090-exec-26] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:21:33.033 INFO [http-nio-8090-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:21:33.035 INFO [http-nio-8090-exec-29] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+09-Feb-2018 12:21:33.549 INFO [http-nio-8090-exec-26] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+09-Feb-2018 12:21:33.549 INFO [http-nio-8090-exec-26] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war
+09-Feb-2018 12:21:33.690 INFO [http-nio-8090-exec-34] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:21:33.690 INFO [http-nio-8090-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:21:33.705 INFO [http-nio-8090-exec-33] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+09-Feb-2018 12:21:34.210 INFO [http-nio-8090-exec-33] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+09-Feb-2018 12:21:34.210 INFO [http-nio-8090-exec-33] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war
+09-Feb-2018 12:21:34.319 INFO [http-nio-8090-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:21:34.319 INFO [http-nio-8090-exec-34] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:21:34.319 INFO [http-nio-8090-exec-26] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+09-Feb-2018 12:21:34.979 INFO [http-nio-8090-exec-34] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+09-Feb-2018 12:21:34.979 INFO [http-nio-8090-exec-34] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war
+09-Feb-2018 12:21:35.088 INFO [http-nio-8090-exec-32] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:21:35.088 INFO [http-nio-8090-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:21:35.104 INFO [http-nio-8090-exec-25] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+09-Feb-2018 12:21:35.613 INFO [http-nio-8090-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+09-Feb-2018 12:21:35.613 INFO [http-nio-8090-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war
+09-Feb-2018 12:23:40.331 INFO [http-nio-8090-exec-37] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:23:40.333 INFO [http-nio-8090-exec-38] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:23:40.335 INFO [http-nio-8090-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+09-Feb-2018 12:23:40.845 INFO [http-nio-8090-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+09-Feb-2018 12:23:40.845 INFO [http-nio-8090-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war
+09-Feb-2018 12:23:40.942 INFO [http-nio-8090-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:23:40.943 INFO [http-nio-8090-exec-32] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:23:40.945 INFO [http-nio-8090-exec-25] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+09-Feb-2018 12:23:41.459 INFO [http-nio-8090-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+09-Feb-2018 12:23:41.459 INFO [http-nio-8090-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war
+09-Feb-2018 12:23:42.106 INFO [http-nio-8090-exec-36] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:23:42.109 INFO [http-nio-8090-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:23:42.110 INFO [http-nio-8090-exec-32] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+09-Feb-2018 12:23:42.620 INFO [http-nio-8090-exec-36] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+09-Feb-2018 12:23:42.620 INFO [http-nio-8090-exec-36] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war
+09-Feb-2018 12:23:42.746 INFO [http-nio-8090-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:23:42.748 INFO [http-nio-8090-exec-25] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:23:42.749 INFO [http-nio-8090-exec-37] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+09-Feb-2018 12:23:43.273 INFO [http-nio-8090-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+09-Feb-2018 12:23:43.273 INFO [http-nio-8090-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war
+09-Feb-2018 12:28:18.305 INFO [http-nio-8090-exec-42] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:28:18.307 INFO [http-nio-8090-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:28:18.308 INFO [http-nio-8090-exec-44] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+09-Feb-2018 12:28:18.827 INFO [http-nio-8090-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+09-Feb-2018 12:28:18.827 INFO [http-nio-8090-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war
+09-Feb-2018 12:28:18.960 INFO [http-nio-8090-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:28:18.961 INFO [http-nio-8090-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:28:18.963 INFO [http-nio-8090-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+09-Feb-2018 12:28:19.481 INFO [http-nio-8090-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+09-Feb-2018 12:28:19.481 INFO [http-nio-8090-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war
+09-Feb-2018 12:28:19.578 INFO [http-nio-8090-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:28:19.578 INFO [http-nio-8090-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:28:19.578 INFO [http-nio-8090-exec-31] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+09-Feb-2018 12:28:20.090 INFO [http-nio-8090-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+09-Feb-2018 12:28:20.090 INFO [http-nio-8090-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war
+09-Feb-2018 12:28:20.226 INFO [http-nio-8090-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:28:20.227 INFO [http-nio-8090-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:28:20.228 INFO [http-nio-8090-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+09-Feb-2018 12:28:20.755 INFO [http-nio-8090-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+09-Feb-2018 12:28:20.756 INFO [http-nio-8090-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war
+09-Feb-2018 12:33:08.569 INFO [http-nio-8090-exec-50] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:33:08.569 INFO [http-nio-8090-exec-51] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:33:08.585 INFO [http-nio-8090-exec-52] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+09-Feb-2018 12:33:09.097 INFO [http-nio-8090-exec-54] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+09-Feb-2018 12:33:09.097 INFO [http-nio-8090-exec-54] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war
+09-Feb-2018 12:33:09.242 INFO [http-nio-8090-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:33:09.244 INFO [http-nio-8090-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:33:09.245 INFO [http-nio-8090-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+09-Feb-2018 12:33:09.763 INFO [http-nio-8090-exec-54] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+09-Feb-2018 12:33:09.763 INFO [http-nio-8090-exec-54] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war
+09-Feb-2018 12:33:09.856 INFO [http-nio-8090-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:33:09.858 INFO [http-nio-8090-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:33:09.859 INFO [http-nio-8090-exec-50] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+09-Feb-2018 12:33:10.380 INFO [http-nio-8090-exec-54] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+09-Feb-2018 12:33:10.380 INFO [http-nio-8090-exec-54] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war
+09-Feb-2018 12:33:10.517 INFO [http-nio-8090-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:33:10.518 INFO [http-nio-8090-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:33:10.519 INFO [http-nio-8090-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+09-Feb-2018 12:33:11.041 INFO [http-nio-8090-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+09-Feb-2018 12:33:11.041 INFO [http-nio-8090-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war
+09-Feb-2018 12:35:48.612 INFO [http-nio-8090-exec-57] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:35:48.612 INFO [http-nio-8090-exec-58] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:35:48.612 INFO [http-nio-8090-exec-35] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+09-Feb-2018 12:35:49.141 INFO [http-nio-8090-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+09-Feb-2018 12:35:49.141 INFO [http-nio-8090-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war
+09-Feb-2018 12:35:49.281 INFO [http-nio-8090-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:35:49.281 INFO [http-nio-8090-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:35:49.281 INFO [http-nio-8090-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+09-Feb-2018 12:35:49.804 INFO [http-nio-8090-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+09-Feb-2018 12:35:49.804 INFO [http-nio-8090-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war
+09-Feb-2018 12:35:49.918 INFO [http-nio-8090-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:35:49.918 INFO [http-nio-8090-exec-56] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:35:49.918 INFO [http-nio-8090-exec-51] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+09-Feb-2018 12:35:50.429 INFO [http-nio-8090-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+09-Feb-2018 12:35:50.429 INFO [http-nio-8090-exec-39] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war
+09-Feb-2018 12:35:50.543 INFO [http-nio-8090-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:35:50.544 INFO [http-nio-8090-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:35:50.545 INFO [http-nio-8090-exec-56] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+09-Feb-2018 12:35:51.070 INFO [http-nio-8090-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+09-Feb-2018 12:35:51.071 INFO [http-nio-8090-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war
+09-Feb-2018 12:37:09.853 INFO [http-nio-8090-exec-62] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:37:09.853 INFO [http-nio-8090-exec-40] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:37:09.853 INFO [http-nio-8090-exec-58] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+09-Feb-2018 12:37:10.360 INFO [http-nio-8090-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+09-Feb-2018 12:37:10.360 INFO [http-nio-8090-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war
+09-Feb-2018 12:37:10.493 INFO [http-nio-8090-exec-61] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:37:10.493 INFO [http-nio-8090-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:37:10.493 INFO [http-nio-8090-exec-56] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+09-Feb-2018 12:37:11.017 INFO [http-nio-8090-exec-56] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+09-Feb-2018 12:37:11.017 INFO [http-nio-8090-exec-56] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war
+09-Feb-2018 12:37:11.138 INFO [http-nio-8090-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:37:11.139 INFO [http-nio-8090-exec-61] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:37:11.141 INFO [http-nio-8090-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+09-Feb-2018 12:37:11.661 INFO [http-nio-8090-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+09-Feb-2018 12:37:11.661 INFO [http-nio-8090-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war
+09-Feb-2018 12:37:11.777 INFO [http-nio-8090-exec-61] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:37:11.777 INFO [http-nio-8090-exec-65] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:37:11.777 INFO [http-nio-8090-exec-57] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+09-Feb-2018 12:37:12.300 INFO [http-nio-8090-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+09-Feb-2018 12:37:12.300 INFO [http-nio-8090-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war
+09-Feb-2018 12:38:50.291 INFO [http-nio-8090-exec-66] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:38:50.291 INFO [http-nio-8090-exec-67] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:38:50.291 INFO [http-nio-8090-exec-58] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+09-Feb-2018 12:38:50.821 INFO [http-nio-8090-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+09-Feb-2018 12:38:50.821 INFO [http-nio-8090-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war
+09-Feb-2018 12:38:50.972 INFO [http-nio-8090-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:38:50.974 INFO [http-nio-8090-exec-68] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:38:50.974 INFO [http-nio-8090-exec-67] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+09-Feb-2018 12:38:51.484 INFO [http-nio-8090-exec-65] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+09-Feb-2018 12:38:51.484 INFO [http-nio-8090-exec-65] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war
+09-Feb-2018 12:38:51.588 INFO [http-nio-8090-exec-66] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:38:51.589 INFO [http-nio-8090-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:38:51.590 INFO [http-nio-8090-exec-45] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+09-Feb-2018 12:38:52.106 INFO [http-nio-8090-exec-68] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+09-Feb-2018 12:38:52.106 INFO [http-nio-8090-exec-68] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war
+09-Feb-2018 12:38:52.239 INFO [http-nio-8090-exec-43] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:38:52.239 INFO [http-nio-8090-exec-65] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:38:52.239 INFO [http-nio-8090-exec-66] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+09-Feb-2018 12:38:52.743 INFO [http-nio-8090-exec-68] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+09-Feb-2018 12:38:52.743 INFO [http-nio-8090-exec-68] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war
+09-Feb-2018 12:39:47.555 INFO [http-nio-8090-exec-67] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:39:47.555 INFO [http-nio-8090-exec-70] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:39:47.555 INFO [http-nio-8090-exec-65] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+09-Feb-2018 12:39:48.071 INFO [http-nio-8090-exec-68] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+09-Feb-2018 12:39:48.071 INFO [http-nio-8090-exec-68] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war
+09-Feb-2018 12:39:48.200 INFO [http-nio-8090-exec-71] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:39:48.201 INFO [http-nio-8090-exec-70] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:39:48.201 INFO [http-nio-8090-exec-66] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+09-Feb-2018 12:39:48.727 INFO [http-nio-8090-exec-70] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+09-Feb-2018 12:39:48.728 INFO [http-nio-8090-exec-70] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war
+09-Feb-2018 12:39:48.812 INFO [http-nio-8090-exec-65] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:39:48.812 INFO [http-nio-8090-exec-60] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:39:48.812 INFO [http-nio-8090-exec-64] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+09-Feb-2018 12:39:49.339 INFO [http-nio-8090-exec-64] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+09-Feb-2018 12:39:49.339 INFO [http-nio-8090-exec-64] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war
+09-Feb-2018 12:39:49.434 INFO [http-nio-8090-exec-71] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:39:49.434 INFO [http-nio-8090-exec-70] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:39:49.434 INFO [http-nio-8090-exec-65] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+09-Feb-2018 12:39:49.957 INFO [http-nio-8090-exec-73] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+09-Feb-2018 12:39:49.957 INFO [http-nio-8090-exec-73] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war
+09-Feb-2018 12:41:47.964 INFO [http-nio-8090-exec-74] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:41:47.964 INFO [http-nio-8090-exec-75] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:41:47.979 INFO [http-nio-8090-exec-68] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+09-Feb-2018 12:41:48.487 INFO [http-nio-8090-exec-76] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+09-Feb-2018 12:41:48.487 INFO [http-nio-8090-exec-76] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war
+09-Feb-2018 12:41:48.619 INFO [http-nio-8090-exec-73] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:41:48.619 INFO [http-nio-8090-exec-75] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:41:48.619 INFO [http-nio-8090-exec-60] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+09-Feb-2018 12:41:49.139 INFO [http-nio-8090-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+09-Feb-2018 12:41:49.139 INFO [http-nio-8090-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war
+09-Feb-2018 12:41:49.243 INFO [http-nio-8090-exec-73] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:41:49.243 INFO [http-nio-8090-exec-75] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:41:49.243 INFO [http-nio-8090-exec-62] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+09-Feb-2018 12:41:49.760 INFO [http-nio-8090-exec-62] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+09-Feb-2018 12:41:49.760 INFO [http-nio-8090-exec-62] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war
+09-Feb-2018 12:41:49.873 INFO [http-nio-8090-exec-76] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:41:49.874 INFO [http-nio-8090-exec-75] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:41:49.875 INFO [http-nio-8090-exec-60] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+09-Feb-2018 12:41:50.386 INFO [http-nio-8090-exec-73] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+09-Feb-2018 12:41:50.386 INFO [http-nio-8090-exec-73] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war
+09-Feb-2018 12:43:57.841 INFO [http-nio-8090-exec-79] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:43:57.843 INFO [http-nio-8090-exec-80] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:43:57.844 INFO [http-nio-8090-exec-74] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+09-Feb-2018 12:43:58.365 INFO [http-nio-8090-exec-73] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+09-Feb-2018 12:43:58.365 INFO [http-nio-8090-exec-73] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war
+09-Feb-2018 12:43:58.497 INFO [http-nio-8090-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:43:58.498 INFO [http-nio-8090-exec-81] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:43:58.499 INFO [http-nio-8090-exec-75] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+09-Feb-2018 12:43:59.014 INFO [http-nio-8090-exec-82] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+09-Feb-2018 12:43:59.014 INFO [http-nio-8090-exec-82] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war
+09-Feb-2018 12:43:59.101 INFO [http-nio-8090-exec-73] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:43:59.101 INFO [http-nio-8090-exec-81] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:43:59.117 INFO [http-nio-8090-exec-80] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+09-Feb-2018 12:43:59.624 INFO [http-nio-8090-exec-73] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+09-Feb-2018 12:43:59.624 INFO [http-nio-8090-exec-73] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war
+09-Feb-2018 12:43:59.719 INFO [http-nio-8090-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:43:59.721 INFO [http-nio-8090-exec-82] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:43:59.723 INFO [http-nio-8090-exec-82] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+09-Feb-2018 12:44:00.243 INFO [http-nio-8090-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+09-Feb-2018 12:44:00.243 INFO [http-nio-8090-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war
+09-Feb-2018 12:45:59.314 INFO [http-nio-8090-exec-84] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:45:59.316 INFO [http-nio-8090-exec-69] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:45:59.318 INFO [http-nio-8090-exec-86] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+09-Feb-2018 12:45:59.838 INFO [http-nio-8090-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+09-Feb-2018 12:45:59.838 INFO [http-nio-8090-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war
+09-Feb-2018 12:45:59.968 INFO [http-nio-8090-exec-82] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:45:59.969 INFO [http-nio-8090-exec-81] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:45:59.970 INFO [http-nio-8090-exec-75] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+09-Feb-2018 12:46:00.505 INFO [http-nio-8090-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+09-Feb-2018 12:46:00.505 INFO [http-nio-8090-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war
+09-Feb-2018 12:46:00.610 INFO [http-nio-8090-exec-82] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:46:00.611 INFO [http-nio-8090-exec-86] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:46:00.612 INFO [http-nio-8090-exec-83] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+09-Feb-2018 12:46:01.128 INFO [http-nio-8090-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+09-Feb-2018 12:46:01.128 INFO [http-nio-8090-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war
+09-Feb-2018 12:46:01.242 INFO [http-nio-8090-exec-81] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:46:01.242 INFO [http-nio-8090-exec-85] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:46:01.242 INFO [http-nio-8090-exec-82] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+09-Feb-2018 12:46:01.770 INFO [http-nio-8090-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+09-Feb-2018 12:46:01.770 INFO [http-nio-8090-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war
+09-Feb-2018 12:48:42.552 INFO [http-nio-8090-exec-88] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:48:42.554 INFO [http-nio-8090-exec-88] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:48:42.556 INFO [http-nio-8090-exec-89] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+09-Feb-2018 12:48:43.078 INFO [http-nio-8090-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+09-Feb-2018 12:48:43.078 INFO [http-nio-8090-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war
+09-Feb-2018 12:48:43.216 INFO [http-nio-8090-exec-83] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:48:43.216 INFO [http-nio-8090-exec-90] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:48:43.216 INFO [http-nio-8090-exec-81] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+09-Feb-2018 12:48:43.746 INFO [http-nio-8090-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+09-Feb-2018 12:48:43.746 INFO [http-nio-8090-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war
+09-Feb-2018 12:48:43.847 INFO [http-nio-8090-exec-90] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:48:43.848 INFO [http-nio-8090-exec-91] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:48:43.848 INFO [http-nio-8090-exec-85] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+09-Feb-2018 12:48:44.359 INFO [http-nio-8090-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+09-Feb-2018 12:48:44.359 INFO [http-nio-8090-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war
+09-Feb-2018 12:48:44.466 INFO [http-nio-8090-exec-81] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:48:44.467 INFO [http-nio-8090-exec-91] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:48:44.469 INFO [http-nio-8090-exec-83] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+09-Feb-2018 12:48:44.979 INFO [http-nio-8090-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+09-Feb-2018 12:48:44.979 INFO [http-nio-8090-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war
+09-Feb-2018 12:50:24.335 INFO [http-nio-8090-exec-94] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:50:24.335 INFO [http-nio-8090-exec-91] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:50:24.335 INFO [http-nio-8090-exec-93] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+09-Feb-2018 12:50:24.861 INFO [http-nio-8090-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+09-Feb-2018 12:50:24.861 INFO [http-nio-8090-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war
+09-Feb-2018 12:50:24.985 INFO [http-nio-8090-exec-94] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:50:24.986 INFO [http-nio-8090-exec-92] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:50:24.986 INFO [http-nio-8090-exec-83] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+09-Feb-2018 12:50:25.498 INFO [http-nio-8090-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+09-Feb-2018 12:50:25.498 INFO [http-nio-8090-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war
+09-Feb-2018 12:50:25.584 INFO [http-nio-8090-exec-92] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:50:25.600 INFO [http-nio-8090-exec-96] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:50:25.600 INFO [http-nio-8090-exec-94] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+09-Feb-2018 12:50:26.109 INFO [http-nio-8090-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+09-Feb-2018 12:50:26.109 INFO [http-nio-8090-exec-77] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war
+09-Feb-2018 12:50:26.234 INFO [http-nio-8090-exec-96] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:50:26.234 INFO [http-nio-8090-exec-97] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+09-Feb-2018 12:50:26.234 INFO [http-nio-8090-exec-93] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/webapp'
+09-Feb-2018 12:50:26.741 INFO [http-nio-8090-exec-94] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/webapp'
+09-Feb-2018 12:50:26.741 INFO [http-nio-8090-exec-94] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war

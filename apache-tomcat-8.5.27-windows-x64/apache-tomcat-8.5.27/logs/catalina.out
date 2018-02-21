@@ -1,0 +1,59 @@
+13-Feb-2018 09:47:22.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+13-Feb-2018 09:47:22.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+13-Feb-2018 09:47:22.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+13-Feb-2018 09:47:22.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+13-Feb-2018 09:47:22.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+13-Feb-2018 09:47:22.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Feb-2018 09:47:22.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_161\jre
+13-Feb-2018 09:47:22.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+13-Feb-2018 09:47:22.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+13-Feb-2018 09:47:22.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27
+13-Feb-2018 09:47:22.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27
+13-Feb-2018 09:47:22.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:/Users/suraj.jena/Desktop/web/next/maven-project/apache-tomcat-8.5.27-windows-x64/apache-tomcat-8.5.27/conf/logging.properties
+13-Feb-2018 09:47:22.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Feb-2018 09:47:22.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Feb-2018 09:47:22.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Feb-2018 09:47:22.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Feb-2018 09:47:22.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:/Users/suraj.jena/Desktop/web/next/maven-project/apache-tomcat-8.5.27-windows-x64/apache-tomcat-8.5.27
+13-Feb-2018 09:47:22.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:/Users/suraj.jena/Desktop/web/next/maven-project/apache-tomcat-8.5.27-windows-x64/apache-tomcat-8.5.27
+13-Feb-2018 09:47:22.274 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:/Users/suraj.jena/Desktop/web/next/maven-project/apache-tomcat-8.5.27-windows-x64/apache-tomcat-8.5.27/temp
+13-Feb-2018 09:47:22.274 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+13-Feb-2018 09:47:22.274 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+13-Feb-2018 09:47:22.274 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+13-Feb-2018 09:47:22.743 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+13-Feb-2018 09:47:23.243 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8090"]
+13-Feb-2018 09:47:24.253 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Feb-2018 09:47:24.285 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+13-Feb-2018 09:47:24.285 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+13-Feb-2018 09:47:24.285 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2385 ms
+13-Feb-2018 09:47:24.441 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Feb-2018 09:47:24.441 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+13-Feb-2018 09:47:24.519 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war]
+13-Feb-2018 09:47:25.113 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war] has finished in [594] ms
+13-Feb-2018 09:47:25.144 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war]
+13-Feb-2018 09:47:25.191 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war] has finished in [47] ms
+13-Feb-2018 09:47:25.191 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\docs]
+13-Feb-2018 09:47:25.238 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\docs] has finished in [47] ms
+13-Feb-2018 09:47:25.238 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\examples]
+13-Feb-2018 09:47:27.960 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\examples] has finished in [2,722] ms
+13-Feb-2018 09:47:27.961 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\host-manager]
+13-Feb-2018 09:47:28.103 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\host-manager] has finished in [142] ms
+13-Feb-2018 09:47:28.103 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\manager]
+13-Feb-2018 09:47:28.264 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\manager] has finished in [161] ms
+13-Feb-2018 09:47:28.264 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\ROOT]
+13-Feb-2018 09:47:28.302 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\ROOT] has finished in [38] ms
+13-Feb-2018 09:47:28.306 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8090"]
+13-Feb-2018 09:47:28.317 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+13-Feb-2018 09:47:28.320 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4020 ms
+13-Feb-2018 09:51:07.779 INFO [http-nio-8090-exec-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/sample]
+13-Feb-2018 09:51:07.794 INFO [http-nio-8090-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war]
+13-Feb-2018 09:51:07.919 INFO [http-nio-8090-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war] has finished in [125] ms
+13-Feb-2018 09:51:08.497 INFO [http-nio-8090-exec-6] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/sample]
+13-Feb-2018 09:51:08.511 INFO [http-nio-8090-exec-5] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war]
+13-Feb-2018 09:51:08.557 INFO [http-nio-8090-exec-5] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war] has finished in [46] ms
+13-Feb-2018 09:51:09.226 INFO [http-nio-8090-exec-8] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapp]
+13-Feb-2018 09:51:09.258 INFO [http-nio-8090-exec-3] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war]
+13-Feb-2018 09:51:09.289 INFO [http-nio-8090-exec-3] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war] has finished in [31] ms
+13-Feb-2018 09:51:09.867 INFO [http-nio-8090-exec-5] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/webapp]
+13-Feb-2018 09:51:09.885 INFO [http-nio-8090-exec-5] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war]
+13-Feb-2018 09:51:09.925 INFO [http-nio-8090-exec-5] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war] has finished in [41] ms

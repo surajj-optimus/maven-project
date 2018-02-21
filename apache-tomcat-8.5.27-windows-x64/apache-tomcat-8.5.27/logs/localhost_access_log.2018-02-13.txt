@@ -1,0 +1,16 @@
+127.0.0.1 - tomcat [13/Feb/2018:09:51:07 +0530] "GET //manager/text/list HTTP/1.1" 200 254
+127.0.0.1 - tomcat [13/Feb/2018:09:51:07 +0530] "GET //manager/text/list HTTP/1.1" 200 254
+127.0.0.1 - tomcat [13/Feb/2018:09:51:07 +0530] "GET //manager/text/undeploy?path=%2Fsample HTTP/1.1" 200 66
+127.0.0.1 - tomcat [13/Feb/2018:09:51:07 +0530] "PUT //manager/text/deploy?path=%2Fsample HTTP/1.1" 200 64
+127.0.0.1 - tomcat [13/Feb/2018:09:51:07 +0530] "GET //manager/text/list HTTP/1.1" 200 254
+127.0.0.1 - tomcat [13/Feb/2018:09:51:07 +0530] "GET //manager/text/list HTTP/1.1" 200 254
+127.0.0.1 - tomcat [13/Feb/2018:09:51:08 +0530] "GET //manager/text/undeploy?path=%2Fsample HTTP/1.1" 200 66
+127.0.0.1 - tomcat [13/Feb/2018:09:51:08 +0530] "PUT //manager/text/deploy?path=%2Fsample HTTP/1.1" 200 64
+127.0.0.1 - tomcat [13/Feb/2018:09:51:08 +0530] "GET //manager/text/list HTTP/1.1" 200 254
+127.0.0.1 - tomcat [13/Feb/2018:09:51:08 +0530] "GET //manager/text/list HTTP/1.1" 200 254
+127.0.0.1 - tomcat [13/Feb/2018:09:51:09 +0530] "GET //manager/text/undeploy?path=%2Fwebapp HTTP/1.1" 200 66
+127.0.0.1 - tomcat [13/Feb/2018:09:51:09 +0530] "PUT //manager/text/deploy?path=%2Fwebapp HTTP/1.1" 200 64
+127.0.0.1 - tomcat [13/Feb/2018:09:51:09 +0530] "GET //manager/text/list HTTP/1.1" 200 254
+127.0.0.1 - tomcat [13/Feb/2018:09:51:09 +0530] "GET //manager/text/list HTTP/1.1" 200 254
+127.0.0.1 - tomcat [13/Feb/2018:09:51:09 +0530] "GET //manager/text/undeploy?path=%2Fwebapp HTTP/1.1" 200 66
+127.0.0.1 - tomcat [13/Feb/2018:09:51:09 +0530] "PUT //manager/text/deploy?path=%2Fwebapp HTTP/1.1" 200 64
