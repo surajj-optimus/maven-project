@@ -1,0 +1,5 @@
+20-Mar-2018 12:48:14.944 INFO [http-nio-8090-exec-36] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Mar-2018 12:48:15.289 INFO [http-nio-8090-exec-32] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+20-Mar-2018 12:48:16.517 INFO [http-nio-8090-exec-31] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/IT_Company_Locator'
+20-Mar-2018 12:48:21.153 INFO [http-nio-8090-exec-38] org.apache.catalina.core.ApplicationContext.log Manager: install: Installing context configuration at 'file:/C:/Users/SURAJ~1.JEN/AppData/Local/Temp/context7767087618701769778.xml'
+20-Mar-2018 12:48:25.287 INFO [http-nio-8090-exec-32] org.apache.catalina.core.ApplicationContext.log Manager: start: Starting web application '/IT_Company_Locator'

@@ -1,0 +1,231 @@
+09-Mar-2018 09:51:07.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+09-Mar-2018 09:51:07.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+09-Mar-2018 09:51:07.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+09-Mar-2018 09:51:07.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+09-Mar-2018 09:51:07.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+09-Mar-2018 09:51:07.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+09-Mar-2018 09:51:07.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_161\jre
+09-Mar-2018 09:51:07.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+09-Mar-2018 09:51:07.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+09-Mar-2018 09:51:07.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27
+09-Mar-2018 09:51:07.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27
+09-Mar-2018 09:51:07.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\logging.properties
+09-Mar-2018 09:51:07.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+09-Mar-2018 09:51:07.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|optimus-195
+09-Mar-2018 09:51:07.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+09-Mar-2018 09:51:07.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+09-Mar-2018 09:51:07.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+09-Mar-2018 09:51:07.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27
+09-Mar-2018 09:51:07.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27
+09-Mar-2018 09:51:07.868 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\temp
+09-Mar-2018 09:51:07.868 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+09-Mar-2018 09:51:07.868 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+09-Mar-2018 09:51:07.868 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+09-Mar-2018 09:51:08.434 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+09-Mar-2018 09:51:08.887 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8090"]
+09-Mar-2018 09:51:09.213 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-Mar-2018 09:51:09.369 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+09-Mar-2018 09:51:09.369 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+09-Mar-2018 09:51:09.369 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 6750 ms
+09-Mar-2018 09:51:10.352 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+09-Mar-2018 09:51:10.352 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+09-Mar-2018 09:51:10.477 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\WebApplication2.xml]
+09-Mar-2018 09:51:11.455 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+09-Mar-2018 09:51:11.549 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\WebApplication2.xml] has finished in [1,057] ms
+09-Mar-2018 09:51:11.612 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war]
+09-Mar-2018 09:51:11.658 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war] has finished in [46] ms
+09-Mar-2018 09:51:11.721 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war]
+09-Mar-2018 09:51:11.830 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war] has finished in [109] ms
+09-Mar-2018 09:51:11.830 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\docs]
+09-Mar-2018 09:51:11.924 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\docs] has finished in [79] ms
+09-Mar-2018 09:51:11.924 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\examples]
+09-Mar-2018 09:51:13.592 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\examples] has finished in [1,668] ms
+09-Mar-2018 09:51:13.592 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\host-manager]
+09-Mar-2018 09:51:13.639 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\host-manager] has finished in [47] ms
+09-Mar-2018 09:51:13.639 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\manager]
+09-Mar-2018 09:51:13.715 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\manager] has finished in [76] ms
+09-Mar-2018 09:51:13.715 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\ROOT]
+09-Mar-2018 09:51:13.746 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\ROOT] has finished in [31] ms
+09-Mar-2018 09:51:13.746 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8090"]
+09-Mar-2018 09:51:13.761 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+09-Mar-2018 09:51:13.761 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 4395 ms
+09-Mar-2018 09:51:16.342 INFO [http-nio-8090-exec-1] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 09:51:17.316 INFO [19] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 09:54:09.458 INFO [http-nio-8090-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 09:54:09.551 INFO [http-nio-8090-exec-13] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 09:54:10.036 INFO [http-nio-8090-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 09:54:10.067 INFO [http-nio-8090-exec-14] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 09:54:14.427 INFO [http-nio-8090-exec-17] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 09:54:14.446 INFO [http-nio-8090-exec-17] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 09:56:43.146 INFO [http-nio-8090-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 09:56:43.193 INFO [http-nio-8090-exec-24] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 09:56:53.563 INFO [http-nio-8090-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 09:56:53.594 INFO [http-nio-8090-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 09:56:53.625 INFO [http-nio-8090-exec-23] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 09:56:53.656 INFO [http-nio-8090-exec-23] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 09:59:28.365 INFO [http-nio-8090-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 09:59:28.412 INFO [http-nio-8090-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 10:05:08.374 INFO [http-nio-8090-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 10:05:08.389 INFO [http-nio-8090-exec-35] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 10:06:34.644 INFO [http-nio-8090-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 10:06:34.675 INFO [http-nio-8090-exec-25] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 10:07:48.879 INFO [http-nio-8090-exec-34] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 10:07:48.910 INFO [http-nio-8090-exec-34] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 10:08:41.048 INFO [http-nio-8090-exec-37] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 10:08:41.079 INFO [http-nio-8090-exec-37] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 10:14:26.185 INFO [http-nio-8090-exec-45] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 10:14:26.248 INFO [http-nio-8090-exec-45] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 10:28:57.443 INFO [http-nio-8090-exec-51] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 10:28:57.621 INFO [http-nio-8090-exec-51] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 10:28:57.653 INFO [http-nio-8090-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 10:28:57.668 INFO [http-nio-8090-exec-49] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 10:29:17.446 INFO [http-nio-8090-exec-52] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 10:29:17.461 INFO [http-nio-8090-exec-52] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 10:48:16.488 INFO [http-nio-8090-exec-63] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 10:48:16.550 INFO [http-nio-8090-exec-63] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 10:50:30.611 INFO [http-nio-8090-exec-62] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 10:50:30.658 INFO [http-nio-8090-exec-62] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 10:57:39.696 INFO [http-nio-8090-exec-78] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 10:57:39.774 INFO [http-nio-8090-exec-78] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 10:59:56.067 INFO [http-nio-8090-exec-83] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 10:59:56.277 INFO [http-nio-8090-exec-83] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 11:02:41.027 INFO [http-nio-8090-exec-75] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 11:02:41.106 INFO [http-nio-8090-exec-75] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 11:10:53.237 INFO [http-nio-8090-exec-91] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 11:10:53.320 INFO [http-nio-8090-exec-91] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 11:11:01.564 INFO [http-nio-8090-exec-98] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 11:11:01.657 INFO [http-nio-8090-exec-98] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 11:11:19.780 INFO [http-nio-8090-exec-99] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 11:11:19.937 INFO [http-nio-8090-exec-99] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 11:11:20.063 INFO [http-nio-8090-exec-91] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 11:11:20.089 INFO [http-nio-8090-exec-91] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 11:33:28.925 INFO [http-nio-8090-exec-103] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 11:33:29.946 INFO [http-nio-8090-exec-103] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 11:33:34.564 INFO [http-nio-8090-exec-112] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 11:33:35.465 INFO [http-nio-8090-exec-112] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 11:43:11.087 INFO [http-nio-8090-exec-114] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 11:43:11.270 INFO [http-nio-8090-exec-114] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 11:43:11.855 INFO [http-nio-8090-exec-120] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 11:43:12.009 INFO [http-nio-8090-exec-120] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 11:47:27.643 INFO [http-nio-8090-exec-126] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 11:47:27.775 INFO [http-nio-8090-exec-126] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 11:56:30.375 INFO [http-nio-8090-exec-132] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 11:56:30.788 INFO [http-nio-8090-exec-132] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 11:59:21.819 INFO [http-nio-8090-exec-135] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 11:59:21.930 INFO [http-nio-8090-exec-135] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 12:01:35.129 INFO [http-nio-8090-exec-141] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 12:01:35.166 INFO [http-nio-8090-exec-141] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 12:01:49.740 INFO [http-nio-8090-exec-137] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 12:01:49.825 INFO [http-nio-8090-exec-137] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 12:02:19.666 INFO [http-nio-8090-exec-135] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 12:02:19.697 INFO [http-nio-8090-exec-135] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 12:05:06.902 INFO [http-nio-8090-exec-137] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 12:05:07.069 INFO [http-nio-8090-exec-137] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 12:05:26.857 INFO [http-nio-8090-exec-135] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 12:05:26.892 INFO [http-nio-8090-exec-135] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 12:06:56.058 INFO [http-nio-8090-exec-149] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 12:06:56.083 INFO [http-nio-8090-exec-149] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 12:07:28.189 INFO [http-nio-8090-exec-143] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 12:07:28.246 INFO [http-nio-8090-exec-143] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 12:08:29.352 INFO [http-nio-8090-exec-135] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 12:08:29.430 INFO [http-nio-8090-exec-135] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 12:08:34.125 INFO [http-nio-8090-exec-149] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] has started
+09-Mar-2018 12:08:34.152 INFO [http-nio-8090-exec-149] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/WebApplication2] is completed
+09-Mar-2018 12:17:34.072 INFO [http-nio-8090-exec-156] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/WebApplication2]
+09-Mar-2018 15:52:36.234 INFO [http-nio-8090-exec-172] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\ITCompanyLocator.xml]
+09-Mar-2018 15:52:38.492 INFO [http-nio-8090-exec-172] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\ITCompanyLocator.xml] has finished in [2,282] ms
+09-Mar-2018 15:52:38.539 INFO [http-nio-8090-exec-172] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/ITCompanyLocator]] after start() had already been called. The second call will be ignored.
+09-Mar-2018 15:53:49.015 INFO [http-nio-8090-exec-169] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 15:53:49.372 INFO [http-nio-8090-exec-169] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 15:55:57.360 INFO [http-nio-8090-exec-177] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 15:55:57.751 INFO [http-nio-8090-exec-177] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 15:56:18.680 INFO [http-nio-8090-exec-173] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 15:56:18.914 INFO [http-nio-8090-exec-173] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 15:56:26.499 INFO [http-nio-8090-exec-179] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 15:56:26.593 INFO [http-nio-8090-exec-179] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 16:03:24.773 INFO [http-nio-8090-exec-185] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 16:03:24.852 INFO [http-nio-8090-exec-185] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 16:10:34.491 INFO [http-nio-8090-exec-197] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 16:10:34.554 INFO [http-nio-8090-exec-197] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 16:12:49.445 INFO [http-nio-8090-exec-194] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 16:12:49.508 INFO [http-nio-8090-exec-194] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 16:12:54.781 INFO [http-nio-8090-exec-202] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 16:12:54.844 INFO [http-nio-8090-exec-202] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 16:12:59.785 INFO [http-nio-8090-exec-184] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 16:12:59.821 INFO [http-nio-8090-exec-184] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 16:14:31.877 INFO [http-nio-8090-exec-203] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 16:14:31.924 INFO [http-nio-8090-exec-203] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 16:14:40.161 INFO [http-nio-8090-exec-210] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 16:14:40.233 INFO [http-nio-8090-exec-210] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 16:24:47.373 INFO [http-nio-8090-exec-216] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 16:24:47.631 INFO [http-nio-8090-exec-216] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 16:33:08.872 INFO [http-nio-8090-exec-225] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 16:33:08.951 INFO [http-nio-8090-exec-225] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 16:34:56.934 INFO [http-nio-8090-exec-224] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 16:34:56.988 INFO [http-nio-8090-exec-224] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 16:35:25.742 INFO [http-nio-8090-exec-225] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 16:35:25.866 INFO [http-nio-8090-exec-225] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 16:35:30.826 INFO [http-nio-8090-exec-231] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 16:35:30.910 INFO [http-nio-8090-exec-231] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 16:35:34.477 INFO [http-nio-8090-exec-225] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 16:35:34.537 INFO [http-nio-8090-exec-225] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 16:36:29.664 INFO [http-nio-8090-exec-235] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 16:36:29.838 INFO [http-nio-8090-exec-235] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 16:36:35.431 INFO [http-nio-8090-exec-232] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 16:36:35.552 INFO [http-nio-8090-exec-232] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 16:36:38.664 INFO [http-nio-8090-exec-226] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 16:36:38.682 INFO [http-nio-8090-exec-226] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 17:56:30.327 INFO [http-nio-8090-exec-245] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 17:56:42.494 INFO [http-nio-8090-exec-245] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 17:57:55.026 INFO [http-nio-8090-exec-242] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 17:57:56.227 INFO [http-nio-8090-exec-242] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 18:05:40.167 INFO [http-nio-8090-exec-259] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 18:05:41.483 INFO [http-nio-8090-exec-259] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 19:41:40.720 INFO [http-nio-8090-exec-270] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 19:41:45.327 INFO [http-nio-8090-exec-270] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 19:43:58.821 INFO [http-nio-8090-exec-267] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 19:44:00.143 INFO [http-nio-8090-exec-267] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 20:39:12.323 INFO [http-nio-8090-exec-282] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 20:39:17.687 INFO [http-nio-8090-exec-282] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 20:39:28.994 INFO [http-nio-8090-exec-292] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 20:39:29.462 INFO [http-nio-8090-exec-292] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 20:41:11.133 INFO [http-nio-8090-exec-287] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 20:41:12.075 INFO [http-nio-8090-exec-287] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 20:41:25.548 INFO [http-nio-8090-exec-292] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 20:41:26.141 INFO [http-nio-8090-exec-292] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 20:42:26.561 INFO [http-nio-8090-exec-293] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 20:42:26.995 INFO [http-nio-8090-exec-293] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 20:42:35.379 INFO [http-nio-8090-exec-295] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 20:42:35.565 INFO [http-nio-8090-exec-295] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 20:42:41.242 INFO [http-nio-8090-exec-302] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 20:42:41.622 INFO [http-nio-8090-exec-302] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 20:43:16.818 INFO [http-nio-8090-exec-295] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 20:43:16.940 INFO [http-nio-8090-exec-295] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 20:43:21.691 INFO [http-nio-8090-exec-306] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 20:43:21.799 INFO [http-nio-8090-exec-306] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 20:44:12.250 INFO [http-nio-8090-exec-295] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 20:44:12.374 INFO [http-nio-8090-exec-295] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 20:44:45.957 INFO [http-nio-8090-exec-295] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 20:44:46.091 INFO [http-nio-8090-exec-295] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 20:45:44.118 INFO [http-nio-8090-exec-298] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 20:45:44.281 INFO [http-nio-8090-exec-298] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 20:45:46.999 INFO [http-nio-8090-exec-317] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 20:45:47.036 INFO [http-nio-8090-exec-317] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 20:46:16.087 INFO [http-nio-8090-exec-298] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 20:46:16.201 INFO [http-nio-8090-exec-298] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 20:46:24.640 INFO [http-nio-8090-exec-306] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 20:46:24.976 INFO [http-nio-8090-exec-306] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 20:48:02.379 INFO [http-nio-8090-exec-321] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 20:48:02.506 INFO [http-nio-8090-exec-321] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 20:48:06.345 INFO [http-nio-8090-exec-325] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 20:48:06.391 INFO [http-nio-8090-exec-325] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 20:48:35.153 INFO [http-nio-8090-exec-332] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 20:48:35.711 INFO [http-nio-8090-exec-332] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 20:48:37.273 INFO [http-nio-8090-exec-331] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 20:48:37.302 INFO [http-nio-8090-exec-331] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 20:51:19.151 INFO [http-nio-8090-exec-337] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 20:51:20.678 INFO [http-nio-8090-exec-337] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 21:00:30.788 INFO [http-nio-8090-exec-342] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 21:00:31.079 INFO [http-nio-8090-exec-342] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed
+09-Mar-2018 21:18:29.536 INFO [http-nio-8090-exec-351] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] has started
+09-Mar-2018 21:18:30.276 INFO [http-nio-8090-exec-351] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/ITCompanyLocator] is completed

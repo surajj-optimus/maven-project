@@ -1,0 +1,258 @@
+16-Mar-2018 16:45:26.130 SEVERE [http-nio-8090-exec-569] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/paginations] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\work\Catalina\localhost\paginations\org\apache\jsp\newjspxxx_jsp.java]
+The import newpackage.NewClass.hm cannot be resolved
+
+An error occurred at line: [31] in the jsp file: [/newjspxxx.jsp]
+hm cannot be resolved
+28:             <th>Name</th>
+29:            <th>Address</th>
+30:            <th>Map and Photos</th>
+31:         <% for(HashMap.Entry<String,String> m:hm.entrySet()){%>
+32:        <tr>
+33:        <b><td><%out.print(m.getKey());%></td></b>
+34:             <td><%out.print(m.getValue());%></td>
+
+
+An error occurred at line: [161] in the generated java file: [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\work\Catalina\localhost\paginations\org\apache\jsp\newjspxxx_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [178] in the generated java file: [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\work\Catalina\localhost\paginations\org\apache\jsp\newjspxxx_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [179] in the generated java file: [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\work\Catalina\localhost\paginations\org\apache\jsp\newjspxxx_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\work\Catalina\localhost\paginations\org\apache\jsp\newjspxxx_jsp.java]
+The import newpackage.NewClass.hm cannot be resolved
+
+An error occurred at line: [31] in the jsp file: [/newjspxxx.jsp]
+hm cannot be resolved
+28:             <th>Name</th>
+29:            <th>Address</th>
+30:            <th>Map and Photos</th>
+31:         <% for(HashMap.Entry<String,String> m:hm.entrySet()){%>
+32:        <tr>
+33:        <b><td><%out.print(m.getKey());%></td></b>
+34:             <td><%out.print(m.getValue());%></td>
+
+
+An error occurred at line: [161] in the generated java file: [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\work\Catalina\localhost\paginations\org\apache\jsp\newjspxxx_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [178] in the generated java file: [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\work\Catalina\localhost\paginations\org\apache\jsp\newjspxxx_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [179] in the generated java file: [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\work\Catalina\localhost\paginations\org\apache\jsp\newjspxxx_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:457)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:595)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+16-Mar-2018 16:45:41.783 SEVERE [http-nio-8090-exec-565] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/paginations] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\work\Catalina\localhost\paginations\org\apache\jsp\newjspxxx_jsp.java]
+The import newpackage.NewClass.hm cannot be resolved
+
+An error occurred at line: [31] in the jsp file: [/newjspxxx.jsp]
+hm cannot be resolved
+28:             <th>Name</th>
+29:            <th>Address</th>
+30:            <th>Map and Photos</th>
+31:         <% for(HashMap.Entry<String,String> m:hm.entrySet()){%>
+32:        <tr>
+33:        <b><td><%out.print(m.getKey());%></td></b>
+34:             <td><%out.print(m.getValue());%></td>
+
+
+An error occurred at line: [161] in the generated java file: [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\work\Catalina\localhost\paginations\org\apache\jsp\newjspxxx_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [178] in the generated java file: [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\work\Catalina\localhost\paginations\org\apache\jsp\newjspxxx_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [179] in the generated java file: [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\work\Catalina\localhost\paginations\org\apache\jsp\newjspxxx_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\work\Catalina\localhost\paginations\org\apache\jsp\newjspxxx_jsp.java]
+The import newpackage.NewClass.hm cannot be resolved
+
+An error occurred at line: [31] in the jsp file: [/newjspxxx.jsp]
+hm cannot be resolved
+28:             <th>Name</th>
+29:            <th>Address</th>
+30:            <th>Map and Photos</th>
+31:         <% for(HashMap.Entry<String,String> m:hm.entrySet()){%>
+32:        <tr>
+33:        <b><td><%out.print(m.getKey());%></td></b>
+34:             <td><%out.print(m.getValue());%></td>
+
+
+An error occurred at line: [161] in the generated java file: [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\work\Catalina\localhost\paginations\org\apache\jsp\newjspxxx_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [178] in the generated java file: [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\work\Catalina\localhost\paginations\org\apache\jsp\newjspxxx_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [179] in the generated java file: [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\work\Catalina\localhost\paginations\org\apache\jsp\newjspxxx_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:457)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:595)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+16-Mar-2018 16:46:22.439 SEVERE [http-nio-8090-exec-570] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/paginations] threw exception [Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\work\Catalina\localhost\paginations\org\apache\jsp\newjspxxx_jsp.java]
+The import newpackage.NewClass.hm cannot be resolved
+
+An error occurred at line: [31] in the jsp file: [/newjspxxx.jsp]
+hm cannot be resolved
+28:             <th>Name</th>
+29:            <th>Address</th>
+30:            <th>Map and Photos</th>
+31:         <% for(HashMap.Entry<String,String> m:hm.entrySet()){%>
+32:        <tr>
+33:        <b><td><%out.print(m.getKey());%></td></b>
+34:             <td><%out.print(m.getValue());%></td>
+
+
+An error occurred at line: [161] in the generated java file: [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\work\Catalina\localhost\paginations\org\apache\jsp\newjspxxx_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [178] in the generated java file: [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\work\Catalina\localhost\paginations\org\apache\jsp\newjspxxx_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [179] in the generated java file: [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\work\Catalina\localhost\paginations\org\apache\jsp\newjspxxx_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Unable to compile class for JSP: 
+
+An error occurred at line: [15] in the generated java file: [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\work\Catalina\localhost\paginations\org\apache\jsp\newjspxxx_jsp.java]
+The import newpackage.NewClass.hm cannot be resolved
+
+An error occurred at line: [31] in the jsp file: [/newjspxxx.jsp]
+hm cannot be resolved
+28:             <th>Name</th>
+29:            <th>Address</th>
+30:            <th>Map and Photos</th>
+31:         <% for(HashMap.Entry<String,String> m:hm.entrySet()){%>
+32:        <tr>
+33:        <b><td><%out.print(m.getKey());%></td></b>
+34:             <td><%out.print(m.getValue());%></td>
+
+
+An error occurred at line: [161] in the generated java file: [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\work\Catalina\localhost\paginations\org\apache\jsp\newjspxxx_jsp.java]
+Syntax error, insert "}" to complete Block
+
+An error occurred at line: [178] in the generated java file: [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\work\Catalina\localhost\paginations\org\apache\jsp\newjspxxx_jsp.java]
+Syntax error on token "}", delete this token
+
+An error occurred at line: [179] in the generated java file: [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\work\Catalina\localhost\paginations\org\apache\jsp\newjspxxx_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:212)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:457)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:379)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:351)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:335)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:595)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:368)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+

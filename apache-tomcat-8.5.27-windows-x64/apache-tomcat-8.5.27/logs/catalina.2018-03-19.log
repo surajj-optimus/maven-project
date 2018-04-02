@@ -1,0 +1,603 @@
+19-Mar-2018 10:02:17.346 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+19-Mar-2018 10:02:17.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+19-Mar-2018 10:02:17.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+19-Mar-2018 10:02:17.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Mar-2018 10:02:17.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Mar-2018 10:02:17.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Mar-2018 10:02:17.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_161\jre
+19-Mar-2018 10:02:17.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+19-Mar-2018 10:02:17.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Mar-2018 10:02:17.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27
+19-Mar-2018 10:02:17.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27
+19-Mar-2018 10:02:17.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\logging.properties
+19-Mar-2018 10:02:17.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Mar-2018 10:02:17.455 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|optimus-195
+19-Mar-2018 10:02:17.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Mar-2018 10:02:17.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Mar-2018 10:02:17.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Mar-2018 10:02:17.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27
+19-Mar-2018 10:02:17.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27
+19-Mar-2018 10:02:17.471 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\temp
+19-Mar-2018 10:02:17.471 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+19-Mar-2018 10:02:17.471 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+19-Mar-2018 10:02:17.471 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+19-Mar-2018 10:02:18.392 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+19-Mar-2018 10:02:22.839 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8090"]
+19-Mar-2018 10:02:23.533 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2018 10:02:23.564 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2018 10:02:23.564 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2018 10:02:23.564 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 19567 ms
+19-Mar-2018 10:02:23.658 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Mar-2018 10:02:23.658 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+19-Mar-2018 10:02:23.689 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\Company Locator.xml]
+19-Mar-2018 10:02:24.879 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 10:02:24.972 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\Company Locator.xml] has finished in [1,283] ms
+19-Mar-2018 10:02:24.972 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\ITCompanyLocator.xml]
+19-Mar-2018 10:02:25.777 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 10:02:25.777 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\ITCompanyLocator.xml] has finished in [805] ms
+19-Mar-2018 10:02:25.777 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\ITCompanyLocator12.xml]
+19-Mar-2018 10:02:26.199 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 10:02:26.215 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\ITCompanyLocator12.xml] has finished in [438] ms
+19-Mar-2018 10:02:26.215 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\ITCompanyLocator12_1.xml]
+19-Mar-2018 10:02:26.605 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 10:02:26.605 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\ITCompanyLocator12_1.xml] has finished in [390] ms
+19-Mar-2018 10:02:26.605 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 10:02:26.792 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 10:02:26.792 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [187] ms
+19-Mar-2018 10:02:26.792 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\paginations.xml]
+19-Mar-2018 10:02:26.949 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 10:02:26.949 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\paginations.xml] has finished in [157] ms
+19-Mar-2018 10:02:26.949 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\ROOT.xml]
+19-Mar-2018 10:02:27.250 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 10:02:27.250 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\ROOT.xml] has finished in [301] ms
+19-Mar-2018 10:02:27.250 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\WebApplication3.xml]
+19-Mar-2018 10:02:27.297 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\WebApplication3.xml] has finished in [47] ms
+19-Mar-2018 10:02:27.469 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war]
+19-Mar-2018 10:02:27.516 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war] has finished in [47] ms
+19-Mar-2018 10:02:27.594 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war]
+19-Mar-2018 10:02:27.641 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war] has finished in [47] ms
+19-Mar-2018 10:02:27.656 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\docs]
+19-Mar-2018 10:02:27.703 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\docs] has finished in [47] ms
+19-Mar-2018 10:02:27.703 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\examples]
+19-Mar-2018 10:02:31.014 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\examples] has finished in [3,311] ms
+19-Mar-2018 10:02:31.014 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\host-manager]
+19-Mar-2018 10:02:31.179 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\host-manager] has finished in [165] ms
+19-Mar-2018 10:02:31.179 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\manager]
+19-Mar-2018 10:02:31.242 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\manager] has finished in [63] ms
+19-Mar-2018 10:02:31.242 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8090"]
+19-Mar-2018 10:02:31.273 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2018 10:02:31.273 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 7702 ms
+19-Mar-2018 10:02:35.901 INFO [http-nio-8090-exec-10] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 10:02:36.010 INFO [http-nio-8090-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 10:02:36.120 INFO [http-nio-8090-exec-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 10:02:36.135 INFO [http-nio-8090-exec-4] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [125] ms
+19-Mar-2018 10:02:36.166 INFO [http-nio-8090-exec-2] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 10:08:59.075 INFO [http-nio-8090-exec-17] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 10:08:59.106 INFO [http-nio-8090-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 10:08:59.544 INFO [http-nio-8090-exec-11] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 10:08:59.560 INFO [http-nio-8090-exec-11] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [454] ms
+19-Mar-2018 10:08:59.560 INFO [http-nio-8090-exec-13] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 10:10:42.771 INFO [http-nio-8090-exec-25] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 10:10:42.783 INFO [http-nio-8090-exec-13] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 10:10:42.809 INFO [http-nio-8090-exec-13] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 10:10:42.813 INFO [http-nio-8090-exec-13] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [29] ms
+19-Mar-2018 10:10:42.816 INFO [http-nio-8090-exec-24] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 10:11:45.293 INFO [http-nio-8090-exec-18] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 10:11:45.293 INFO [http-nio-8090-exec-13] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 10:11:45.326 INFO [http-nio-8090-exec-13] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 10:11:45.328 INFO [http-nio-8090-exec-13] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [35] ms
+19-Mar-2018 10:11:45.332 INFO [http-nio-8090-exec-24] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 10:12:11.156 INFO [http-nio-8090-exec-28] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 10:12:11.167 INFO [http-nio-8090-exec-24] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 10:12:11.185 INFO [http-nio-8090-exec-24] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 10:12:11.185 INFO [http-nio-8090-exec-24] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [18] ms
+19-Mar-2018 10:12:11.232 INFO [http-nio-8090-exec-13] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 10:12:50.662 INFO [http-nio-8090-exec-37] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 10:12:50.678 INFO [http-nio-8090-exec-13] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 10:12:50.709 INFO [http-nio-8090-exec-13] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 10:12:50.731 INFO [http-nio-8090-exec-13] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [53] ms
+19-Mar-2018 10:12:50.733 INFO [http-nio-8090-exec-36] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 10:13:07.023 INFO [http-nio-8090-exec-28] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 10:13:07.047 INFO [http-nio-8090-exec-40] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 10:13:07.080 INFO [http-nio-8090-exec-40] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 10:13:07.084 INFO [http-nio-8090-exec-40] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [38] ms
+19-Mar-2018 10:13:07.084 INFO [http-nio-8090-exec-43] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 10:14:33.380 INFO [http-nio-8090-exec-46] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 10:14:33.409 INFO [http-nio-8090-exec-36] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 10:14:33.470 INFO [http-nio-8090-exec-36] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 10:14:33.472 INFO [http-nio-8090-exec-36] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [62] ms
+19-Mar-2018 10:14:33.476 INFO [http-nio-8090-exec-53] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 10:14:52.179 INFO [http-nio-8090-exec-48] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 10:14:52.200 INFO [http-nio-8090-exec-36] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 10:14:52.232 INFO [http-nio-8090-exec-36] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 10:14:52.232 INFO [http-nio-8090-exec-36] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [32] ms
+19-Mar-2018 10:14:52.247 INFO [http-nio-8090-exec-54] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 10:16:43.759 INFO [http-nio-8090-exec-63] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 10:16:43.789 INFO [http-nio-8090-exec-59] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 10:16:43.912 INFO [http-nio-8090-exec-59] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 10:16:43.917 INFO [http-nio-8090-exec-59] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [128] ms
+19-Mar-2018 10:16:43.921 INFO [http-nio-8090-exec-54] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 10:17:13.731 INFO [http-nio-8090-exec-60] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 10:17:13.746 INFO [http-nio-8090-exec-67] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 10:17:13.793 INFO [http-nio-8090-exec-67] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 10:17:13.793 INFO [http-nio-8090-exec-67] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [47] ms
+19-Mar-2018 10:17:13.793 INFO [http-nio-8090-exec-54] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 11:34:42.884 INFO [http-nio-8090-exec-72] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 11:34:43.009 INFO [http-nio-8090-exec-69] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 11:34:43.307 INFO [http-nio-8090-exec-69] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 11:34:43.338 INFO [http-nio-8090-exec-69] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [329] ms
+19-Mar-2018 11:34:43.338 INFO [http-nio-8090-exec-70] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 11:37:50.477 INFO [http-nio-8090-exec-80] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 11:37:50.524 INFO [http-nio-8090-exec-81] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 11:37:50.602 INFO [http-nio-8090-exec-81] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 11:37:50.602 INFO [http-nio-8090-exec-81] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [78] ms
+19-Mar-2018 11:37:50.602 INFO [http-nio-8090-exec-79] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 11:44:25.920 INFO [http-nio-8090-exec-94] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/IT_Company_Locator] has started
+19-Mar-2018 11:44:26.405 INFO [http-nio-8090-exec-94] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 11:44:27.150 INFO [http-nio-8090-exec-94] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/IT_Company_Locator] is completed
+19-Mar-2018 11:44:32.531 INFO [http-nio-8090-exec-91] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 11:44:32.578 INFO [http-nio-8090-exec-90] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 11:44:32.681 INFO [http-nio-8090-exec-90] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 11:44:32.682 INFO [http-nio-8090-exec-90] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [104] ms
+19-Mar-2018 11:44:32.685 INFO [http-nio-8090-exec-99] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 12:27:54.159 INFO [http-nio-8090-exec-105] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 12:27:54.191 INFO [http-nio-8090-exec-110] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 12:27:54.250 INFO [http-nio-8090-exec-110] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 12:27:54.250 INFO [http-nio-8090-exec-110] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [75] ms
+19-Mar-2018 12:27:54.250 INFO [http-nio-8090-exec-104] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 12:45:38.056 INFO [http-nio-8090-exec-120] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 12:45:38.087 INFO [http-nio-8090-exec-115] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 12:45:38.154 INFO [http-nio-8090-exec-115] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 12:45:38.201 INFO [http-nio-8090-exec-115] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [114] ms
+19-Mar-2018 12:45:38.201 INFO [http-nio-8090-exec-113] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 12:53:28.641 INFO [http-nio-8090-exec-128] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 12:53:28.641 INFO [http-nio-8090-exec-126] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 12:53:28.751 INFO [http-nio-8090-exec-126] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 12:53:28.751 INFO [http-nio-8090-exec-126] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [110] ms
+19-Mar-2018 12:53:28.751 INFO [http-nio-8090-exec-129] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 13:00:10.602 INFO [http-nio-8090-exec-141] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [jsp]
+19-Mar-2018 13:00:11.605 INFO [http-nio-8090-exec-141] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [jsp]
+19-Mar-2018 13:00:12.942 INFO [http-nio-8090-exec-141] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 13:00:12.976 INFO [http-nio-8090-exec-136] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 13:00:13.038 INFO [http-nio-8090-exec-136] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 13:00:13.041 INFO [http-nio-8090-exec-136] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [64] ms
+19-Mar-2018 13:00:13.044 INFO [http-nio-8090-exec-135] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 13:07:33.783 INFO [http-nio-8090-exec-142] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 13:07:33.814 INFO [http-nio-8090-exec-150] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 13:07:33.939 INFO [http-nio-8090-exec-150] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 13:07:33.954 INFO [http-nio-8090-exec-150] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [140] ms
+19-Mar-2018 13:07:33.954 INFO [http-nio-8090-exec-144] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 13:13:27.614 INFO [http-nio-8090-exec-159] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 13:13:27.650 INFO [http-nio-8090-exec-152] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 13:13:27.724 INFO [http-nio-8090-exec-152] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 13:13:27.726 INFO [http-nio-8090-exec-152] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [76] ms
+19-Mar-2018 13:13:27.730 INFO [http-nio-8090-exec-153] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 13:15:20.311 INFO [http-nio-8090-exec-166] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [jsp]
+19-Mar-2018 13:15:21.317 INFO [http-nio-8090-exec-166] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [jsp]
+19-Mar-2018 13:15:22.322 INFO [http-nio-8090-exec-166] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [jsp]
+19-Mar-2018 13:15:22.487 WARNING [http-nio-8090-exec-166] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [IT_Company_Locator] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.io.FileOutputStream.writeBytes(Native Method)
+ java.io.FileOutputStream.write(FileOutputStream.java:326)
+ java.io.BufferedOutputStream.write(BufferedOutputStream.java:122)
+ java.io.PrintStream.write(PrintStream.java:480)
+ sun.nio.cs.StreamEncoder.writeBytes(StreamEncoder.java:221)
+ sun.nio.cs.StreamEncoder.implFlushBuffer(StreamEncoder.java:291)
+ sun.nio.cs.StreamEncoder.flushBuffer(StreamEncoder.java:104)
+ java.io.OutputStreamWriter.flushBuffer(OutputStreamWriter.java:185)
+ java.io.PrintStream.write(PrintStream.java:527)
+ java.io.PrintStream.print(PrintStream.java:669)
+ java.io.PrintStream.println(PrintStream.java:806)
+ org.apache.tomcat.util.log.SystemLogHandler.println(SystemLogHandler.java:267)
+ newpackage1.NewClass.main(NewClass.java:74)
+ org.apache.jsp.newjsp_jsp._jspService(newjsp_jsp.java:227)
+ org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+ org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+ org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+ org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Thread.java:748)]
+19-Mar-2018 13:15:22.532 INFO [http-nio-8090-exec-165] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [java.util.ArrayList]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [java.util.ArrayList]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1299)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1158)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:123)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:60)
+	at org.apache.jsp.newjsp_jsp._jspService(newjsp_jsp.java:252)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+19-Mar-2018 13:15:22.637 INFO [http-nio-8090-exec-165] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [javax.servlet.jsp.SkipPageException]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [javax.servlet.jsp.SkipPageException]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1299)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1158)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:123)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:60)
+	at org.apache.jsp.newjsp_jsp._jspService(newjsp_jsp.java:371)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+19-Mar-2018 13:15:23.060 INFO [http-nio-8090-exec-166] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 13:15:23.079 INFO [http-nio-8090-exec-164] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 13:15:23.107 INFO [http-nio-8090-exec-164] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 13:15:23.109 INFO [http-nio-8090-exec-164] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [29] ms
+19-Mar-2018 13:15:23.112 INFO [http-nio-8090-exec-167] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 13:18:01.243 INFO [http-nio-8090-exec-177] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 13:18:01.278 INFO [http-nio-8090-exec-181] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 13:18:01.356 INFO [http-nio-8090-exec-181] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 13:18:01.356 INFO [http-nio-8090-exec-181] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [78] ms
+19-Mar-2018 13:18:01.372 INFO [http-nio-8090-exec-176] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 13:19:09.008 INFO [http-nio-8090-exec-185] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 13:19:09.040 INFO [http-nio-8090-exec-190] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 13:19:09.102 INFO [http-nio-8090-exec-190] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 13:19:09.102 INFO [http-nio-8090-exec-190] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [62] ms
+19-Mar-2018 13:19:09.102 INFO [http-nio-8090-exec-186] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 13:21:38.264 INFO [http-nio-8090-exec-196] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [jsp]
+19-Mar-2018 13:21:39.267 INFO [http-nio-8090-exec-196] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [jsp]
+19-Mar-2018 13:21:40.271 INFO [http-nio-8090-exec-196] org.apache.catalina.core.StandardWrapper.unload Waiting for [1] instance(s) to be deallocated for Servlet [jsp]
+19-Mar-2018 13:21:40.414 WARNING [http-nio-8090-exec-196] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [IT_Company_Locator] is still processing a request that has yet to finish. This is very likely to create a memory leak. You can control the time allowed for requests to finish by using the unloadDelay attribute of the standard Context implementation. Stack trace of request processing thread:[
+ java.lang.Thread.sleep(Native Method)
+ newpackage1.NewClass.fetchData(NewClass.java:39)
+ newpackage1.NewClass.main(NewClass.java:46)
+ org.apache.jsp.newjsp_jsp._jspService(newjsp_jsp.java:227)
+ org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+ org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+ org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+ org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+ javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+ org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+ org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+ org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+ org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+ org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+ org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+ org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+ org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+ org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+ org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+ org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+ org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+ org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+ org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+ org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+ java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+ java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+ org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+ java.lang.Thread.run(Thread.java:748)]
+19-Mar-2018 13:21:40.920 INFO [http-nio-8090-exec-196] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 13:21:40.955 INFO [http-nio-8090-exec-182] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 13:21:40.988 INFO [http-nio-8090-exec-182] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 13:21:40.990 INFO [http-nio-8090-exec-182] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [35] ms
+19-Mar-2018 13:21:40.996 INFO [http-nio-8090-exec-184] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 13:21:41.374 INFO [http-nio-8090-exec-197] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [java.util.ArrayList]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [java.util.ArrayList]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1299)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1158)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:123)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:60)
+	at org.apache.jsp.newjsp_jsp._jspService(newjsp_jsp.java:251)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+19-Mar-2018 13:21:41.374 INFO [http-nio-8090-exec-197] org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading Illegal access: this web application instance has been stopped already. Could not load [javax.servlet.jsp.SkipPageException]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+ java.lang.IllegalStateException: Illegal access: this web application instance has been stopped already. Could not load [javax.servlet.jsp.SkipPageException]. The following stack trace is thrown for debugging purposes as well as to attempt to terminate the thread which caused the illegal access.
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForResourceLoading(WebappClassLoaderBase.java:1311)
+	at org.apache.catalina.loader.WebappClassLoaderBase.checkStateForClassLoading(WebappClassLoaderBase.java:1299)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1158)
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1119)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:123)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:60)
+	at org.apache.jsp.newjsp_jsp._jspService(newjsp_jsp.java:370)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:443)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:386)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:330)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:504)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:650)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:803)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:790)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+19-Mar-2018 13:31:45.782 INFO [http-nio-8090-exec-209] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 13:31:45.797 INFO [http-nio-8090-exec-200] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 13:31:45.860 INFO [http-nio-8090-exec-200] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 13:31:45.875 INFO [http-nio-8090-exec-200] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [78] ms
+19-Mar-2018 13:31:45.875 INFO [http-nio-8090-exec-204] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 13:34:27.892 INFO [http-nio-8090-exec-218] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/IT_Company_Locator] has started
+19-Mar-2018 13:34:27.939 INFO [http-nio-8090-exec-218] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 13:34:27.955 INFO [http-nio-8090-exec-218] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/IT_Company_Locator] is completed
+19-Mar-2018 13:41:31.371 INFO [http-nio-8090-exec-210] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 13:41:31.402 INFO [http-nio-8090-exec-223] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 13:41:31.449 INFO [http-nio-8090-exec-223] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 13:41:31.449 INFO [http-nio-8090-exec-223] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [47] ms
+19-Mar-2018 13:41:31.465 INFO [http-nio-8090-exec-225] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 13:43:06.247 INFO [http-nio-8090-exec-222] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 13:43:06.262 INFO [http-nio-8090-exec-230] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 13:43:06.304 INFO [http-nio-8090-exec-230] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 13:43:06.305 INFO [http-nio-8090-exec-230] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [44] ms
+19-Mar-2018 13:43:06.308 INFO [http-nio-8090-exec-227] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 13:51:49.357 INFO [http-nio-8090-exec-243] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 13:51:49.388 INFO [http-nio-8090-exec-241] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 13:51:49.435 INFO [http-nio-8090-exec-241] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 13:51:49.435 INFO [http-nio-8090-exec-241] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [47] ms
+19-Mar-2018 13:51:49.450 INFO [http-nio-8090-exec-234] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 13:52:54.949 INFO [http-nio-8090-exec-250] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 13:54:00.237 INFO [http-nio-8090-exec-253] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 13:54:00.315 INFO [http-nio-8090-exec-253] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 13:54:00.315 INFO [http-nio-8090-exec-253] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [78] ms
+19-Mar-2018 13:54:00.315 INFO [http-nio-8090-exec-250] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 14:06:08.285 INFO [http-nio-8090-exec-255] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 14:06:08.316 INFO [http-nio-8090-exec-260] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 14:06:08.519 INFO [http-nio-8090-exec-260] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 14:06:08.519 INFO [http-nio-8090-exec-260] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [203] ms
+19-Mar-2018 14:06:08.519 INFO [http-nio-8090-exec-256] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 14:06:23.568 INFO [http-nio-8090-exec-253] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 14:06:23.583 INFO [http-nio-8090-exec-262] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 14:06:23.661 INFO [http-nio-8090-exec-262] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 14:06:23.661 INFO [http-nio-8090-exec-262] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [78] ms
+19-Mar-2018 14:06:23.661 INFO [http-nio-8090-exec-260] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 14:11:27.925 INFO [http-nio-8090-exec-273] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 14:11:27.940 INFO [http-nio-8090-exec-264] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 14:11:28.310 INFO [http-nio-8090-exec-264] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 14:11:28.310 INFO [http-nio-8090-exec-264] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [370] ms
+19-Mar-2018 14:11:28.607 INFO [http-nio-8090-exec-264] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 14:11:53.526 INFO [http-nio-8090-exec-266] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 14:11:53.558 INFO [http-nio-8090-exec-264] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 14:11:53.924 INFO [http-nio-8090-exec-264] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 14:11:53.924 INFO [http-nio-8090-exec-264] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [366] ms
+19-Mar-2018 14:11:53.924 INFO [http-nio-8090-exec-265] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 14:12:41.253 INFO [http-nio-8090-exec-275] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 14:12:41.268 INFO [http-nio-8090-exec-264] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 14:12:41.612 INFO [http-nio-8090-exec-264] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 14:12:41.675 INFO [http-nio-8090-exec-264] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [407] ms
+19-Mar-2018 14:12:41.690 INFO [http-nio-8090-exec-278] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 14:14:09.051 INFO [http-nio-8090-exec-281] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 14:14:09.082 INFO [http-nio-8090-exec-283] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 14:14:09.154 INFO [http-nio-8090-exec-283] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 14:14:09.155 INFO [http-nio-8090-exec-283] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [73] ms
+19-Mar-2018 14:14:09.155 INFO [http-nio-8090-exec-286] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 14:14:22.047 INFO [http-nio-8090-exec-288] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 14:14:22.078 INFO [http-nio-8090-exec-265] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 14:14:22.125 INFO [http-nio-8090-exec-265] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 14:14:22.125 INFO [http-nio-8090-exec-265] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [47] ms
+19-Mar-2018 14:14:22.125 INFO [http-nio-8090-exec-286] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 14:16:46.213 INFO [http-nio-8090-exec-283] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 14:16:46.245 INFO [http-nio-8090-exec-265] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 14:16:46.401 INFO [http-nio-8090-exec-265] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 14:16:46.401 INFO [http-nio-8090-exec-265] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [156] ms
+19-Mar-2018 14:16:46.401 INFO [http-nio-8090-exec-291] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 14:16:59.433 INFO [http-nio-8090-exec-294] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 14:16:59.495 INFO [http-nio-8090-exec-298] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 14:16:59.526 INFO [http-nio-8090-exec-298] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 14:16:59.526 INFO [http-nio-8090-exec-298] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [31] ms
+19-Mar-2018 14:16:59.542 INFO [http-nio-8090-exec-291] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 15:30:28.938 INFO [http-nio-8090-exec-307] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 15:30:28.964 INFO [http-nio-8090-exec-305] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 15:30:29.126 INFO [http-nio-8090-exec-305] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 15:30:29.129 INFO [http-nio-8090-exec-305] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [165] ms
+19-Mar-2018 15:30:29.152 INFO [http-nio-8090-exec-301] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 15:45:49.422 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+19-Mar-2018 15:45:50.154 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8090"]
+19-Mar-2018 15:45:51.420 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2018 15:45:51.826 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+19-Mar-2018 15:45:58.175 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8090"]
+19-Mar-2018 15:45:58.457 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2018 15:45:59.154 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8090"]
+19-Mar-2018 15:45:59.170 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2018 15:47:15.270 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.27
+19-Mar-2018 15:47:15.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 18 2018 20:12:40 UTC
+19-Mar-2018 15:47:15.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.27.0
+19-Mar-2018 15:47:15.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+19-Mar-2018 15:47:15.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+19-Mar-2018 15:47:15.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+19-Mar-2018 15:47:15.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk1.8.0_161\jre
+19-Mar-2018 15:47:15.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b12
+19-Mar-2018 15:47:15.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+19-Mar-2018 15:47:15.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27
+19-Mar-2018 15:47:15.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27
+19-Mar-2018 15:47:15.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\logging.properties
+19-Mar-2018 15:47:15.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+19-Mar-2018 15:47:15.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dhttp.nonProxyHosts=localhost|127.0.0.1|optimus-195
+19-Mar-2018 15:47:15.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+19-Mar-2018 15:47:15.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+19-Mar-2018 15:47:15.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+19-Mar-2018 15:47:15.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27
+19-Mar-2018 15:47:15.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27
+19-Mar-2018 15:47:15.286 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\temp
+19-Mar-2018 15:47:15.286 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.16] using APR version [1.6.3].
+19-Mar-2018 15:47:15.286 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+19-Mar-2018 15:47:15.286 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+19-Mar-2018 15:47:15.896 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2m  2 Nov 2017]
+19-Mar-2018 15:47:16.488 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8090"]
+19-Mar-2018 15:47:16.816 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2018 15:47:16.847 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2018 15:47:16.847 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+19-Mar-2018 15:47:16.847 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 7711 ms
+19-Mar-2018 15:47:17.251 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+19-Mar-2018 15:47:17.251 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.27
+19-Mar-2018 15:47:17.313 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\Company Locator.xml]
+19-Mar-2018 15:47:18.184 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 15:47:18.278 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\Company Locator.xml] has finished in [965] ms
+19-Mar-2018 15:47:18.278 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\ITCompanyLocator.xml]
+19-Mar-2018 15:47:18.824 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 15:47:18.824 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\ITCompanyLocator.xml] has finished in [546] ms
+19-Mar-2018 15:47:18.824 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\ITCompanyLocator12.xml]
+19-Mar-2018 15:47:19.220 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 15:47:19.220 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\ITCompanyLocator12.xml] has finished in [396] ms
+19-Mar-2018 15:47:19.220 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\ITCompanyLocator12_1.xml]
+19-Mar-2018 15:47:19.704 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 15:47:19.704 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\ITCompanyLocator12_1.xml] has finished in [484] ms
+19-Mar-2018 15:47:19.704 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 15:47:19.892 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 15:47:19.954 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [250] ms
+19-Mar-2018 15:47:19.954 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\paginations.xml]
+19-Mar-2018 15:47:20.155 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 15:47:20.155 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\paginations.xml] has finished in [201] ms
+19-Mar-2018 15:47:20.155 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\ROOT.xml]
+19-Mar-2018 15:47:20.358 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 15:47:20.358 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\ROOT.xml] has finished in [203] ms
+19-Mar-2018 15:47:20.358 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\WebApplication3.xml]
+19-Mar-2018 15:47:20.389 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\WebApplication3.xml] has finished in [31] ms
+19-Mar-2018 15:47:20.452 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war]
+19-Mar-2018 15:47:20.514 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\sample.war] has finished in [62] ms
+19-Mar-2018 15:47:20.546 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war]
+19-Mar-2018 15:47:20.608 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\webapp.war] has finished in [62] ms
+19-Mar-2018 15:47:20.608 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\docs]
+19-Mar-2018 15:47:20.640 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\docs] has finished in [32] ms
+19-Mar-2018 15:47:20.640 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\examples]
+19-Mar-2018 15:47:22.429 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\examples] has finished in [1,789] ms
+19-Mar-2018 15:47:22.429 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\host-manager]
+19-Mar-2018 15:47:22.526 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\host-manager] has finished in [97] ms
+19-Mar-2018 15:47:22.526 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\manager]
+19-Mar-2018 15:47:22.682 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\webapps\manager] has finished in [156] ms
+19-Mar-2018 15:47:22.698 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8090"]
+19-Mar-2018 15:47:22.744 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+19-Mar-2018 15:47:22.760 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 5899 ms
+19-Mar-2018 15:47:27.468 INFO [http-nio-8090-exec-3] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 15:47:27.562 INFO [http-nio-8090-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 15:47:27.609 INFO [http-nio-8090-exec-5] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 15:47:27.609 INFO [http-nio-8090-exec-5] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [47] ms
+19-Mar-2018 15:47:27.624 INFO [http-nio-8090-exec-8] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 15:48:04.435 INFO [http-nio-8090-exec-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 15:48:04.451 INFO [http-nio-8090-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 15:48:04.482 INFO [http-nio-8090-exec-8] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 15:48:04.482 INFO [http-nio-8090-exec-8] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [31] ms
+19-Mar-2018 15:48:04.498 INFO [http-nio-8090-exec-4] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 15:48:29.708 INFO [http-nio-8090-exec-11] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 15:48:29.739 INFO [http-nio-8090-exec-17] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 15:48:29.958 INFO [http-nio-8090-exec-17] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 15:48:29.958 INFO [http-nio-8090-exec-17] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [219] ms
+19-Mar-2018 15:48:29.974 INFO [http-nio-8090-exec-16] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
+19-Mar-2018 18:08:50.990 INFO [http-nio-8090-exec-23] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/IT_Company_Locator]
+19-Mar-2018 18:08:51.115 INFO [http-nio-8090-exec-20] org.apache.catalina.startup.HostConfig.deployDescriptor Deploying configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml]
+19-Mar-2018 18:08:51.996 INFO [http-nio-8090-exec-20] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+19-Mar-2018 18:08:52.027 INFO [http-nio-8090-exec-20] org.apache.catalina.startup.HostConfig.deployDescriptor Deployment of configuration descriptor [C:\Users\suraj.jena\Desktop\web\next\maven-project\apache-tomcat-8.5.27-windows-x64\apache-tomcat-8.5.27\conf\Catalina\localhost\IT_Company_Locator.xml] has finished in [912] ms
+19-Mar-2018 18:08:52.027 INFO [http-nio-8090-exec-24] org.apache.catalina.util.LifecycleBase.start The start() method was called on component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/IT_Company_Locator]] after start() had already been called. The second call will be ignored.
